@@ -4,7 +4,7 @@
 The same portfolio site, rebuilt with a Python backend:
 - **Flask** serves the pages and renders the HTML via Jinja templates.
 - **SQLite** stores all the content (experience, projects, skills, achievements, certifications) — populated and read with raw **SQL** queries (see `schema.sql`, `seed.sql`, and the query functions in `app.py`).
-- Clicking **"Email me"** opens your default email app directly via a `mailto:` link, addressed to `surajmali1309@gmail.com`. Clicking the phone number opens the dialer via `tel:`.
+-Clicking your email address opens your default email app directly via a mailto: link, addressed to surajmali1309@gmail.com. Clicking the phone number opens the dialer via tel:.
 
 ## Project structure
 ```
@@ -21,11 +21,8 @@ portfolio_flask/
 ```
 
 ## Run it locally
-```bash
-pip install -r requirements.txt
-python app.py
-```
-Then open **http://127.0.0.1:5000** in your browser.
+
+Then open **(https://suraj-mali-portfolio.onrender.com/)** in your browser.
 
 The first run automatically creates `portfolio.db` from `schema.sql` + `seed.sql`. To reset the data, just delete `portfolio.db` and restart.
 
