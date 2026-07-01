@@ -7,8 +7,6 @@ const io = new IntersectionObserver((entries) => {
 document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 
 // Ensure the "Email me" button opens the user's default mail app directly
-// (mailto: links do this natively in every browser — this just guarantees
-// it isn't intercepted by any click handler).
 document.addEventListener('DOMContentLoaded', () => {
   const emailBtn = document.querySelector('a[href^="mailto:"]');
   if (emailBtn) {
