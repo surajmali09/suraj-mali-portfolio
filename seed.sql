@@ -5,7 +5,7 @@ INSERT INTO profile (id, name, tagline, location, email, phone, linkedin, github
  'I''m Suraj Mali — a Computer Science Engineering graduate (2026) who builds ETL pipelines, ML models, and full-stack software. Core contributor to a patent-pending hologram calling platform.');
 
 INSERT INTO experience (id, role, company, date_range, sort_order) VALUES
-(1, 'Software Developer Intern', 'Swapsoft Sghitech Pvt. Ltd. — Pune', 'Jan 2026 – Jun 2026', 1),
+(1, 'Software Developer Intern', 'Swapsoft Sghitech Pvt. Ltd. — Pune', 'Apr 2026 – Jun 2026', 1),
 (2, 'Data Science Intern', 'The Developers Arena — Remote', 'Aug 2025 – Nov 2025', 2);
 
 INSERT INTO experience_points (experience_id, point) VALUES
