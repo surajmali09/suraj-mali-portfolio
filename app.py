@@ -149,8 +149,9 @@ def index():
     )
 
 
+if not os.path.exists(DB_PATH):
+    init_db()
+
 if __name__ == "__main__":
-    if not os.path.exists(DB_PATH):
-        init_db()
-        print("Database initialized from schema.sql + seed.sql")
     app.run(debug=True)
+    
